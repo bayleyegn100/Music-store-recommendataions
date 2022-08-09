@@ -100,7 +100,7 @@ public class TrackRecommendationControllerTest  {
 
     @Test
     public void deleteTrackRecommendationByShouldDeleteARecommendationAndReturn200StatusCode() throws Exception {
-        mockMvc.perform(delete("/trackRecommendation/11")).andExpect(status().isNoContent());
+        mockMvc.perform(delete("/trackRecommendation/19")).andExpect(status().isNoContent());
     }
 
     @Test
